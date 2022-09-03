@@ -1,0 +1,138 @@
+/* todos os elementos juntos */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* fundo */
+.backg{
+    background-image: linear-gradient(45deg,#000000,#dc143c);
+    height: 100vh;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/* calculadora inicio */
+.calc{
+    position: absolute;
+    background-color: #000000cc;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.botao-calc{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #1f1f1f;
+    border: none;
+    color: #ffffff;
+    margin: 3px;
+}
+
+.botao-calc:hover{
+    background-color: #000000;
+}
+
+.botao-calc2:hover{
+    background-color: #000000;
+}
+
+.botao-calc3:hover{
+    background-color: #000000;
+}
+
+.botao-calc2{
+    width: 50px;
+    height: 110px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #1f1f1f;
+    border: none;
+    color: #ffffff;
+    margin: 3px;
+}
+
+.botao-calc3{
+    width: 110px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #1f1f1f;
+    border: none;
+    color: #ffffff;
+    margin: 3px;
+}
+
+#resultado{
+    background-color: #ffffff;
+    width: 216px;
+    height: 30px;
+    margin: 5px;
+    font-size: 25px;
+    color: #000000;
+    text-align: right;
+    padding: 5px;
+}
+/* calculadora fim */
+
+/* inicio herois */
+/* inicio tabela */
+table{
+    text-align: left;
+    width: 20% !important;
+    margin: auto;
+}
+
+table .title{
+    font-size: large;
+    padding: 10px;
+}
+/* fim tabela */
+
+#op{
+    background-color: #1f1f1fd8;
+    color: #ffffff;
+    border: none;
+    border-radius: 15px;
+    width: 110px;
+    height: 30px;
+}
+
+.t{
+    font-size: large;
+}
+
+fieldset{
+    padding:16px;	
+    border-radius: 15px;
+}
+
+.outer {
+    width: 17px;
+    height: 17px;
+    border: 3px solid #1f1f1f;
+    position: relative;
+    display: inline-block;
+    background: transparent;
+    margin: 5px 2px 0 3px;
+    border-radius: 50%;
+    cursor: pointer;
+    top: 0;
+}
+
+.botao{
+    border-radius: 15px;
+    font-size: medium;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    width: 100px;
+    height: 40px;
+    right: -40%;
+}
